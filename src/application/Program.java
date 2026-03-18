@@ -1,9 +1,12 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	void main() {
-		IO.println("First commit.");
+		Position pos = new Position(3, 5);
+		IO.println(pos);
 	}
  	
 }
